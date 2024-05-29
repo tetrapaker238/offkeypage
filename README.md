@@ -3,6 +3,19 @@ Web Page for Off Key Records (never released)
 
 ## Requirements
 - Download [PHP](https://www.php.net/downloads.php)
+- Download [composer]()
+
+## Get the project
+- Download it as zip or do a git clone:
+```
+git clone https://github.com/tetrapaker238/offkeypage.git
+```
+
+## Install dependencies
+- To install the dependencies of this project, run the following line on a terminal located at the root folder:
+```
+composer install
+```
 
 ## Set the Env file
 - Copy [Env example file](./.env.example) and paste it in the same directory and rename it as "**.env**"
@@ -20,3 +33,7 @@ Visit http://localhost:8000
 
 ## Mailer
 This page uses [PHP Mailer](https://github.com/PHPMailer/PHPMailer). After configuring .env and starting the server, try to send an email and verify that it works.
+
+### Disclaimer
+- Form validation **_isn't completed_**
+- Some links won't work (they were deleted)
