@@ -19,7 +19,7 @@ composer install
 
 ## Set the Env file
 - Copy [Env example file](./.env.example) and paste it in the same directory and rename it as "**.env**"
-- Set Username, Password, Host and Port inside .env file. Default Host and port is set to Office 365. Change it as you need following this [page](https://domar.com/pages/smtp_pop3_server)
+- Set Username, Password, Host and Port inside .env file. Default Host and port is set to Outlook SMTP. Change it as you need following this [page](https://domar.com/pages/smtp_pop3_server). If you're using services from Outlook.com, use [this](https://support.microsoft.com/en-us/office/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040)
 
 ## Serve the page
 - After cloning this repo, open a terminal at the root folder of this project (the folder where you executed git clone)
